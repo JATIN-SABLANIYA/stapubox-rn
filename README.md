@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+StapuBox React Native Assignment
+Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a React Native application built using Expo Router as part of the StapuBox Frontend Engineer Assignment.
 
-## Get started
+The application implements a complete user onboarding flow including OTP authentication, user details, preferences, feedback collection, and a summary screen.
 
-1. Install dependencies
+Features
+Mobile Number Login
+OTP Verification
+Resend OTP
+User Details Form
+Preferences Selection
+Feedback Screen (1000 Character Limit)
+Summary Screen
+Form Validation
+Expo Router Navigation
+Tech Stack
+React Native
+Expo
+Expo Router
+TypeScript
+Axios
+Project Structure
+app/
+├── index.tsx
+├── otp.tsx
+├── details.tsx
+├── preferences.tsx
+├── feedback.tsx
+├── summary.tsx
 
-   ```bash
-   npm install
-   ```
+services/
+├── api.ts
+└── auth.ts
+Installation
 
-2. Start the app
+Clone the repository
 
-   ```bash
-   npx expo start
-   ```
+git clone https://github.com/JATIN-SABLANIYA/stapubox-rn.git
 
-In the output, you'll find options to open the app in a
+Go to the project folder
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+cd stapubox-rn
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Install dependencies
 
-## Get a fresh project
+npm install
 
-When you're ready, run:
+Run the project
 
-```bash
-npm run reset-project
-```
+npx expo start
+API Used
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+StapuBox Trial API
 
-## Learn more
+Send OTP
+Verify OTP
+Resend OTP
+Author
 
-To learn more about developing your project with Expo, look at the following resources:
+Jatin Kumar Sablaniya
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+GitHub:
+https://github.com/JATIN-SABLANIYA
